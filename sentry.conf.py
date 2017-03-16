@@ -31,7 +31,7 @@ SENTRY_OPTIONS['system.admin-email'] = os.environ.get('SENTRY_ADMIN_EMAIL', '')
 SENTRY_SINGLE_ORGANIZATION = True
 
 # Should Sentry allow users to create new accounts?
-SENTRY_FEATURES['auth:register'] = False
+SENTRY_FEATURES['auth:register'] = True
 
 #########
 # Redis #
